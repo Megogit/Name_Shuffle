@@ -27,4 +27,7 @@ while True:
 
 
 for x in range(0, len(name_list)):
-    print(name_list[x]+"<------->" + complist[x])
+    print(name_list[x]+"    <------->    " + complist[x])
+
+
+input()
