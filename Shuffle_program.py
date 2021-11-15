@@ -12,6 +12,7 @@ if len(name_list) < 2:
     name_list = input().split()
 
 while True:
+    random.shuffle(name_list)
     complist = []
     shuffled_list = name_list.copy()
     random.shuffle(shuffled_list)
