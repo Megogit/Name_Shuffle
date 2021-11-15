@@ -2,7 +2,7 @@ import random
 import time
 
 print("""Lütfen isim listesini arada boşluk bırakarak giriniz.
-İki isimli kişilerin isimları arasına boşluk koymayınız""")
+İki isimli kişilerin isimleri arasına boşluksuz yazmayı unutmayınız.""")
 
 
 name_list = input().split()
@@ -27,7 +27,7 @@ while True:
 
 
 for x in range(0, len(name_list)):
-    print(name_list[x]+"    <------->    " + complist[x])
+    print(f"{name_list[x]}    <------->    {complist[x]} ")
 
 
 input()
